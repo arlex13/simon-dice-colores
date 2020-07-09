@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Simon Dice</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="gameboard">
+      <div
+        class="bt color celeste left"
+        data-color="celeste"
+        data-number="0"
+      ></div>
+
+      <div
+        class="bt color violeta right"
+        data-color="violeta"
+        data-number="1"
+      ></div>
+
+      <div
+        class="bt color naranja left"
+        data-color="naranja"
+        data-number="2"
+      ></div>
+
+      <div
+        class="bt color verde right"
+        data-color="verde"
+        data-number="3"
+      ></div>
+
+      <button id="btnEmpezar" class="btn-start" onclick="empezarJuego()">
+        Empezar a jugar!
+      </button>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.0/sweetalert.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
